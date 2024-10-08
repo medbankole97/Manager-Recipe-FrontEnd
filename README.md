@@ -27,19 +27,20 @@ Ce projet est une application web de gestion de recettes développée avec Vue.j
 - Vue.js 3 
 - Bootstrap 5.x (inclus dans le projet)
 - PINIA
+- AXIOS (requêtes API)
 
 ### Étapes d'installation
 
 1. Clonez le dépôt :
 
 ```bash
-git clone https://github.com/Aichetou-Gaye/gestion-recette-frontEnd.git
+git clone https://github.com/medbankole97/Manager-Recipe-FrontEnd.git
 ```
 
 2. Accédez au répertoire du projet :
 
 ```bash
-cd gestion-recette-frontEnd
+cd Manager-Recipe-FrontEnd
 ```
 
 3. Installez les dépendances :
@@ -75,8 +76,6 @@ cd gestion-recette-frontEnd
 - Traduire la page en anglais ou en français.
 
 ##  Auteur
-[Aichetou Gaye](https://github.com/Aichetou-Gaye/)
-
 [Mohamed Bankolé](https://github.com/medbankole97)
 
 
