@@ -1,6 +1,6 @@
 <template>
 <div class="welcome-message text-center my-2">
-      <h2>Waañu Waalo</h2>
+
       <p>{{ $t("home.accroche") }}</p>
     </div>
   <div class="container-fluid px-5">
