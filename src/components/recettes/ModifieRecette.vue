@@ -92,7 +92,7 @@ onMounted(async () => {
 .hight {
   background-image: url('/src/assets/patisserie/gauffre.jpg');
   background-size: cover;
-  height: 70vh;
+  height: 65vh;
   border-radius: 7px;
 }
 </style>

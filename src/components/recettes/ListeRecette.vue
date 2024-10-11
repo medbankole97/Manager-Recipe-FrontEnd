@@ -30,8 +30,8 @@
           <tr v-if="filteredRecettes.length === 0">
             <td colspan="6" class="text-center">{{ $t("recette.list.data") }}</td>
           </tr>
-          <tr v-for="item in filteredRecettes" :key="item.id">
-            <td scope="row">{{ `# ${item.id} ` }}</td>
+          <tr v-for="(item, index) in filteredRecettes" :key="item.id">
+            <td scope="row">{{ index + 1 }}</td>
             <td>{{ item.titre }}</td>
             <td>{{ item.ingredients }}</td>
             <td>{{ item.type }}</td>

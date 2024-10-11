@@ -6,11 +6,11 @@
         <form class="me-auto" @submit.prevent="onSubmit">
           <div class="mb-3">
             <label for="titre" class="form-label">{{ $t("recette.create.row1") }}</label>
-            <input type="text" class="form-control" id="titre" v-model="form.titre" required>
+            <input type="text" class="form-control" id="titre" placeholder="Minimum 5 caractères requis!" v-model="form.titre" required>
           </div>
           <div class="mb-3">
             <label for="ingredients" class="form-label">{{ $t("recette.create.row2") }}</label>
-            <input type="text" class="form-control" id="ingredients" v-model="form.ingredients" required>
+            <input type="text" class="form-control" id="ingredients" placeholder="Minimum 10 caractères requis!" v-model="form.ingredients" required>
           </div>
           <div class="mb-3">
             <label for="type" class="form-label">{{ $t("recette.create.row3.title") }}</label>
